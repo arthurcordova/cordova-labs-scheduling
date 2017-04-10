@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		196DC83AEA8E7F69D13DF2EF /* libPods-scheduling.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 340E291828A65BC211839FD4 /* libPods-scheduling.a */; };
+		F42607B01E9B26DE002F77B3 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42607AF1E9B26DE002F77B3 /* Design.swift */; };
 		F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DD1E95A3F900C23CBF /* AppDelegate.swift */; };
 		F44943E01E95A3F900C23CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DF1E95A3F900C23CBF /* ViewController.swift */; };
 		F44943E31E95A3F900C23CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44943E11E95A3F900C23CBF /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		340E291828A65BC211839FD4 /* libPods-scheduling.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scheduling.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D776453ACFE7529EB3DF36B /* Pods-scheduling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduling.release.xcconfig"; path = "Pods/Target Support Files/Pods-scheduling/Pods-scheduling.release.xcconfig"; sourceTree = "<group>"; };
 		AEC8E6347B479F106BA5908E /* Pods-scheduling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scheduling/Pods-scheduling.debug.xcconfig"; sourceTree = "<group>"; };
+		F42607AF1E9B26DE002F77B3 /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		F44943DA1E95A3F900C23CBF /* scheduling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44943DD1E95A3F900C23CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44943DF1E95A3F900C23CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F42607AC1E9B269F002F77B3 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				F44943DF1E95A3F900C23CBF /* ViewController.swift */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		F42607AD1E9B26A8002F77B3 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F42607AF1E9B26DE002F77B3 /* Design.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		F42607AE1E9B26B3002F77B3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F44943E11E95A3F900C23CBF /* Main.storyboard */,
+				F44943E91E95A3F900C23CBF /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		F44943D11E95A3F900C23CBF = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +109,11 @@
 		F44943DC1E95A3F900C23CBF /* scheduling */ = {
 			isa = PBXGroup;
 			children = (
+				F42607AE1E9B26B3002F77B3 /* view */,
+				F42607AD1E9B26A8002F77B3 /* utils */,
+				F42607AC1E9B269F002F77B3 /* control */,
 				F44943DD1E95A3F900C23CBF /* AppDelegate.swift */,
-				F44943DF1E95A3F900C23CBF /* ViewController.swift */,
-				F44943E11E95A3F900C23CBF /* Main.storyboard */,
 				F44943E71E95A3F900C23CBF /* Assets.xcassets */,
-				F44943E91E95A3F900C23CBF /* LaunchScreen.storyboard */,
 				F44943EC1E95A3F900C23CBF /* Info.plist */,
 				F44943F21E95AB4200C23CBF /* GoogleService-Info.plist */,
 				F44943E41E95A3F900C23CBF /* scheduling.xcdatamodeld */,
@@ -220,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44943E01E95A3F900C23CBF /* ViewController.swift in Sources */,
+				F42607B01E9B26DE002F77B3 /* Design.swift in Sources */,
 				F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */,
 				F44943E61E95A3F900C23CBF /* scheduling.xcdatamodeld in Sources */,
 			);
@@ -385,6 +413,7 @@
 				F44943F11E95A3F900C23CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
