@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		196DC83AEA8E7F69D13DF2EF /* libPods-scheduling.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 340E291828A65BC211839FD4 /* libPods-scheduling.a */; };
 		F42607B01E9B26DE002F77B3 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42607AF1E9B26DE002F77B3 /* Design.swift */; };
+		F42607B31E9C5A52002F77B3 /* IOS ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B11E9C5A52002F77B3 /* IOS ICON@2x.png */; };
+		F42607B41E9C5A52002F77B3 /* IOS ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B21E9C5A52002F77B3 /* IOS ICON@3x.png */; };
+		F42607B61E9D124B002F77B3 /* icon_scheduling_128.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */; };
 		F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DD1E95A3F900C23CBF /* AppDelegate.swift */; };
 		F44943E01E95A3F900C23CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DF1E95A3F900C23CBF /* ViewController.swift */; };
 		F44943E31E95A3F900C23CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44943E11E95A3F900C23CBF /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 		7D776453ACFE7529EB3DF36B /* Pods-scheduling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduling.release.xcconfig"; path = "Pods/Target Support Files/Pods-scheduling/Pods-scheduling.release.xcconfig"; sourceTree = "<group>"; };
 		AEC8E6347B479F106BA5908E /* Pods-scheduling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scheduling/Pods-scheduling.debug.xcconfig"; sourceTree = "<group>"; };
 		F42607AF1E9B26DE002F77B3 /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		F42607B11E9C5A52002F77B3 /* IOS ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS ICON@2x.png"; sourceTree = "<group>"; };
+		F42607B21E9C5A52002F77B3 /* IOS ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS ICON@3x.png"; sourceTree = "<group>"; };
+		F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_scheduling_128.png; sourceTree = "<group>"; };
 		F44943DA1E95A3F900C23CBF /* scheduling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44943DD1E95A3F900C23CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44943DF1E95A3F900C23CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,8 +88,8 @@
 		F42607AE1E9B26B3002F77B3 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				F44943E11E95A3F900C23CBF /* Main.storyboard */,
 				F44943E91E95A3F900C23CBF /* LaunchScreen.storyboard */,
+				F44943E11E95A3F900C23CBF /* Main.storyboard */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -114,6 +120,9 @@
 				F42607AC1E9B269F002F77B3 /* control */,
 				F44943DD1E95A3F900C23CBF /* AppDelegate.swift */,
 				F44943E71E95A3F900C23CBF /* Assets.xcassets */,
+				F42607B11E9C5A52002F77B3 /* IOS ICON@2x.png */,
+				F42607B21E9C5A52002F77B3 /* IOS ICON@3x.png */,
+				F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */,
 				F44943EC1E95A3F900C23CBF /* Info.plist */,
 				F44943F21E95AB4200C23CBF /* GoogleService-Info.plist */,
 				F44943E41E95A3F900C23CBF /* scheduling.xcdatamodeld */,
@@ -185,8 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44943EB1E95A3F900C23CBF /* LaunchScreen.storyboard in Resources */,
+				F42607B41E9C5A52002F77B3 /* IOS ICON@3x.png in Resources */,
 				F44943F31E95AB4200C23CBF /* GoogleService-Info.plist in Resources */,
 				F44943E81E95A3F900C23CBF /* Assets.xcassets in Resources */,
+				F42607B31E9C5A52002F77B3 /* IOS ICON@2x.png in Resources */,
+				F42607B61E9D124B002F77B3 /* icon_scheduling_128.png in Resources */,
 				F44943E31E95A3F900C23CBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
