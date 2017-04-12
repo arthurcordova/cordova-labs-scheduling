@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class ViewController: UIViewController {
+class LoginController: UIViewController {
     
     @IBOutlet var inputLogin: UITextField!
     @IBOutlet var inputSenha: UITextField!
@@ -50,8 +50,8 @@ class ViewController: UIViewController {
                                     print("Login OK: \(user!.email)")
                                     
                                 } else {
-                                    let addAlerta = UIAlertController(title: "Login ERROR", message: "Login ERROR", preferredStyle: UIAlertControllerStyle.alert)
-                                    addAlerta.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: nil))
+                                    let addAlerta = UIAlertController(title: "Erro", message: "E-mail ou a senha informado inválido. Por favor tente novamente. ", preferredStyle: UIAlertControllerStyle.alert)
+                                    addAlerta.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
                                     self.present(addAlerta, animated: true, completion: nil)
                                     
                                 }

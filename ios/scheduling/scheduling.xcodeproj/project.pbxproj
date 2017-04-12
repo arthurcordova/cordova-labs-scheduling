@@ -13,7 +13,7 @@
 		F42607B41E9C5A52002F77B3 /* IOS ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B21E9C5A52002F77B3 /* IOS ICON@3x.png */; };
 		F42607B61E9D124B002F77B3 /* icon_scheduling_128.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */; };
 		F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DD1E95A3F900C23CBF /* AppDelegate.swift */; };
-		F44943E01E95A3F900C23CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DF1E95A3F900C23CBF /* ViewController.swift */; };
+		F44943E01E95A3F900C23CBF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DF1E95A3F900C23CBF /* LoginController.swift */; };
 		F44943E31E95A3F900C23CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44943E11E95A3F900C23CBF /* Main.storyboard */; };
 		F44943E61E95A3F900C23CBF /* scheduling.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F44943E41E95A3F900C23CBF /* scheduling.xcdatamodeld */; };
 		F44943E81E95A3F900C23CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44943E71E95A3F900C23CBF /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 		F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_scheduling_128.png; sourceTree = "<group>"; };
 		F44943DA1E95A3F900C23CBF /* scheduling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44943DD1E95A3F900C23CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F44943DF1E95A3F900C23CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F44943DF1E95A3F900C23CBF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		F44943E21E95A3F900C23CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F44943E51E95A3F900C23CBF /* scheduling.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scheduling.xcdatamodel; sourceTree = "<group>"; };
 		F44943E71E95A3F900C23CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		F42607AC1E9B269F002F77B3 /* control */ = {
 			isa = PBXGroup;
 			children = (
-				F44943DF1E95A3F900C23CBF /* ViewController.swift */,
+				F44943DF1E95A3F900C23CBF /* LoginController.swift */,
 			);
 			name = control;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44943E01E95A3F900C23CBF /* ViewController.swift in Sources */,
+				F44943E01E95A3F900C23CBF /* LoginController.swift in Sources */,
 				F42607B01E9B26DE002F77B3 /* Design.swift in Sources */,
 				F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */,
 				F44943E61E95A3F900C23CBF /* scheduling.xcdatamodeld in Sources */,
