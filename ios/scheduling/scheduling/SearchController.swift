@@ -13,4 +13,9 @@ class SearchController: UIViewController {
     override func viewDidLoad() {
         
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
 }
