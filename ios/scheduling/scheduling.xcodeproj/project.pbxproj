@@ -12,6 +12,11 @@
 		F42607B31E9C5A52002F77B3 /* IOS ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B11E9C5A52002F77B3 /* IOS ICON@2x.png */; };
 		F42607B41E9C5A52002F77B3 /* IOS ICON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B21E9C5A52002F77B3 /* IOS ICON@3x.png */; };
 		F42607B61E9D124B002F77B3 /* icon_scheduling_128.png in Resources */ = {isa = PBXBuildFile; fileRef = F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */; };
+		F42C7D3A1EA6FC6600CC6066 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C7D391EA6FC6600CC6066 /* SettingsController.swift */; };
+		F42C7D3C1EA6FC8900CC6066 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C7D3B1EA6FC8900CC6066 /* SearchController.swift */; };
+		F42C7D3E1EA701AE00CC6066 /* ic_search.imageset in Resources */ = {isa = PBXBuildFile; fileRef = F42C7D3D1EA701AE00CC6066 /* ic_search.imageset */; };
+		F42C7D401EA7025300CC6066 /* ic_account_circle.imageset in Resources */ = {isa = PBXBuildFile; fileRef = F42C7D3F1EA7025300CC6066 /* ic_account_circle.imageset */; };
+		F42C7D421EA7031900CC6066 /* ic_event.imageset in Resources */ = {isa = PBXBuildFile; fileRef = F42C7D411EA7031900CC6066 /* ic_event.imageset */; };
 		F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DD1E95A3F900C23CBF /* AppDelegate.swift */; };
 		F44943E01E95A3F900C23CBF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DF1E95A3F900C23CBF /* LoginController.swift */; };
 		F44943E31E95A3F900C23CBF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44943E11E95A3F900C23CBF /* Login.storyboard */; };
@@ -19,6 +24,8 @@
 		F44943E81E95A3F900C23CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44943E71E95A3F900C23CBF /* Assets.xcassets */; };
 		F44943EB1E95A3F900C23CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44943E91E95A3F900C23CBF /* LaunchScreen.storyboard */; };
 		F44943F31E95AB4200C23CBF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F44943F21E95AB4200C23CBF /* GoogleService-Info.plist */; };
+		F4A6A2561EA02400006BE0E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A6A2551EA02400006BE0E7 /* Main.storyboard */; };
+		F4A6A2581EA026AD006BE0E7 /* MyScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A6A2571EA026AD006BE0E7 /* MyScheduleController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,11 @@
 		F42607B11E9C5A52002F77B3 /* IOS ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS ICON@2x.png"; sourceTree = "<group>"; };
 		F42607B21E9C5A52002F77B3 /* IOS ICON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS ICON@3x.png"; sourceTree = "<group>"; };
 		F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_scheduling_128.png; sourceTree = "<group>"; };
+		F42C7D391EA6FC6600CC6066 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		F42C7D3B1EA6FC8900CC6066 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		F42C7D3D1EA701AE00CC6066 /* ic_search.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_search.imageset; sourceTree = "<group>"; };
+		F42C7D3F1EA7025300CC6066 /* ic_account_circle.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_account_circle.imageset; sourceTree = "<group>"; };
+		F42C7D411EA7031900CC6066 /* ic_event.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_event.imageset; sourceTree = "<group>"; };
 		F44943DA1E95A3F900C23CBF /* scheduling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44943DD1E95A3F900C23CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44943DF1E95A3F900C23CBF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -38,6 +50,8 @@
 		F44943EA1E95A3F900C23CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F44943EC1E95A3F900C23CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44943F21E95AB4200C23CBF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4A6A2551EA02400006BE0E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4A6A2571EA026AD006BE0E7 /* MyScheduleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScheduleController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				F44943DF1E95A3F900C23CBF /* LoginController.swift */,
+				F4A6A2571EA026AD006BE0E7 /* MyScheduleController.swift */,
+				F42C7D391EA6FC6600CC6066 /* SettingsController.swift */,
+				F42C7D3B1EA6FC8900CC6066 /* SearchController.swift */,
 			);
 			name = control;
 			sourceTree = "<group>";
@@ -90,6 +107,7 @@
 			children = (
 				F44943E91E95A3F900C23CBF /* LaunchScreen.storyboard */,
 				F44943E11E95A3F900C23CBF /* Login.storyboard */,
+				F4A6A2551EA02400006BE0E7 /* Main.storyboard */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -120,6 +138,9 @@
 				F42607AC1E9B269F002F77B3 /* control */,
 				F44943DD1E95A3F900C23CBF /* AppDelegate.swift */,
 				F44943E71E95A3F900C23CBF /* Assets.xcassets */,
+				F42C7D411EA7031900CC6066 /* ic_event.imageset */,
+				F42C7D3F1EA7025300CC6066 /* ic_account_circle.imageset */,
+				F42C7D3D1EA701AE00CC6066 /* ic_search.imageset */,
 				F42607B11E9C5A52002F77B3 /* IOS ICON@2x.png */,
 				F42607B21E9C5A52002F77B3 /* IOS ICON@3x.png */,
 				F42607B51E9D124B002F77B3 /* icon_scheduling_128.png */,
@@ -193,9 +214,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42C7D401EA7025300CC6066 /* ic_account_circle.imageset in Resources */,
 				F44943EB1E95A3F900C23CBF /* LaunchScreen.storyboard in Resources */,
+				F42C7D421EA7031900CC6066 /* ic_event.imageset in Resources */,
 				F42607B41E9C5A52002F77B3 /* IOS ICON@3x.png in Resources */,
 				F44943F31E95AB4200C23CBF /* GoogleService-Info.plist in Resources */,
+				F4A6A2561EA02400006BE0E7 /* Main.storyboard in Resources */,
+				F42C7D3E1EA701AE00CC6066 /* ic_search.imageset in Resources */,
 				F44943E81E95A3F900C23CBF /* Assets.xcassets in Resources */,
 				F42607B31E9C5A52002F77B3 /* IOS ICON@2x.png in Resources */,
 				F42607B61E9D124B002F77B3 /* icon_scheduling_128.png in Resources */,
@@ -258,10 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42C7D3A1EA6FC6600CC6066 /* SettingsController.swift in Sources */,
 				F44943E01E95A3F900C23CBF /* LoginController.swift in Sources */,
 				F42607B01E9B26DE002F77B3 /* Design.swift in Sources */,
+				F42C7D3C1EA6FC8900CC6066 /* SearchController.swift in Sources */,
 				F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */,
 				F44943E61E95A3F900C23CBF /* scheduling.xcdatamodeld in Sources */,
+				F4A6A2581EA026AD006BE0E7 /* MyScheduleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

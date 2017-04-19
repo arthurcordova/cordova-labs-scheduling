@@ -17,6 +17,7 @@ class LoginController: UIViewController {
     @IBOutlet var buttonSingIn: UIButton!
     
     let design = Design()
+    var mainView : UIStoryboard!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,11 +44,14 @@ class LoginController: UIViewController {
                                password: inputSenha.text!) { (user, error) in
                                 
                                 if user != nil {
-                                    let addAlerta = UIAlertController(title: "Login OK", message: "Login OK: \(user!.email)", preferredStyle: UIAlertControllerStyle.alert)
-                                    addAlerta.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: nil))
-                                    self.present(addAlerta, animated: true, completion: nil)
+                                    self.mainView = UIStoryboard(name: "Main", bundle: nil)
+                                    let mainController : UITabBarController = self.mainView.instantiateInitialViewController() as! UITabBarController
                                     
-                                    print("Login OK: \(user!.email)")
+                                    let appDelegate = UIApplication.shared.delegate! as! AppDelegate
+                                    appDelegate.window!.rootViewController = mainController
+
+                                    
+                                    
                                     
                                 } else {
                                     let addAlerta = UIAlertController(title: "Erro", message: "E-mail ou a senha informado inválido. Por favor tente novamente. ", preferredStyle: UIAlertControllerStyle.alert)

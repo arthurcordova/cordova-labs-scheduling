@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AwR-F7-Un5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Minha conta-->
+        <scene sceneID="qlV-dH-lGu">
+            <objects>
+                <viewController id="gke-CN-JPj" customClass="SettingsController" customModule="scheduling" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hb1-6y-jhF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hhm-aS-KPV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vXp-96-eQJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNH-ak-t7m">
+                                <rect key="frame" x="166" y="323" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Minha conta" image="ic_account" id="nje-qZ-bXj"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJX-Fl-zwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1" y="948"/>
+        </scene>
+        <!--Agendamentos-->
+        <scene sceneID="phn-37-Mew">
+            <objects>
+                <viewController id="B7q-N3-0cj" customClass="MyScheduleController" customModule="scheduling" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hzV-uR-KnG"/>
+                        <viewControllerLayoutGuide type="bottom" id="xsa-hk-fmK"/>
+                    </layoutGuides>
+                    <view key="view" tag="5" contentMode="scaleToFill" id="e7a-b4-RQ2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNv-fO-wPR">
+                                <rect key="frame" x="166" y="299" width="10" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="5" title="Agendamentos" image="ic_event" id="cxk-4w-Aqc"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="W5s-XN-dfh" id="ogS-EW-mMZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dHH-Na-XlW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="W5s-XN-dfh">
+                    <connections>
+                        <outlet property="delegate" destination="B7q-N3-0cj" id="QeS-6a-cv9"/>
+                        <outlet property="searchContentsController" destination="B7q-N3-0cj" id="XOk-jY-Q61"/>
+                        <outlet property="searchResultsDataSource" destination="B7q-N3-0cj" id="L7E-tg-Fy9"/>
+                        <outlet property="searchResultsDelegate" destination="B7q-N3-0cj" id="V0Y-qq-4k0"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-852" y="947.67616191904051"/>
+        </scene>
+        <!--Pesquisar-->
+        <scene sceneID="CY1-jn-yUG">
+            <objects>
+                <viewController id="DcJ-IG-1ae" customClass="SearchController" customModule="scheduling" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="guO-28-afV"/>
+                        <viewControllerLayoutGuide type="bottom" id="v3n-8N-axf"/>
+                    </layoutGuides>
+                    <view key="view" tag="10" contentMode="scaleToFill" id="ExR-ar-vcj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTH-y9-nIV">
+                                <rect key="frame" x="166" y="299" width="8" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXg-Le-qn9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.58039215690000001" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="10" title="Pesquisar" image="ic_search" id="Tox-Mx-vD2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4x-82-oaf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1626.4000000000001" y="947.67616191904051"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Mwa-y2-Btc">
+            <objects>
+                <tabBarController id="AwR-F7-Un5" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="PaV-g0-yzm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DcJ-IG-1ae" kind="relationship" relationship="viewControllers" id="4vl-Vo-brk"/>
+                        <segue destination="B7q-N3-0cj" kind="relationship" relationship="viewControllers" id="Fos-Fz-GQ1"/>
+                        <segue destination="gke-CN-JPj" kind="relationship" relationship="viewControllers" id="crC-Uu-HlZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8g-aX-XZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-377" y="166"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_account" width="24" height="24"/>
+        <image name="ic_event" width="24" height="24"/>
+        <image name="ic_search" width="24" height="24"/>
+    </resources>
+</document>
