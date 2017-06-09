@@ -1,0 +1,28 @@
+<header class="cl-nav-bar">
+
+    <div>
+        <img src="../../assets/images/icons/ic_menu_white_24px.svg" class="cl-nav-ico" (click)="toogleMenu()" />
+    </div>
+
+</header>
+
+<nav class="cl-drawer-menu cl-shadow" id="drawer">
+    <div class="cl-drawer-menu-header">
+        <div class="cl-drawer-menu-header-bar">
+            <img src="images/ic_close_white_24px.svg" class="cl-action-icon-right" id="ic-close" (click)="toogleMenu()" />
+        </div>
+        <div class="cl-drawer-menu-header-content">
+            <img src="images/ic_avatar.svg" class="cl-avatar-ico" id="ic-avatar" />
+            <label id="label-name" class="label-primary-light">Arthur Cordova Stapassoli</label>
+            <label id="label-email" class="label-secondary-light ">arthur.stapassoli@philips.com</label>
+        </div>
+    </div>
+
+    <div class="cl-drawer-menu-content">
+        <ul id="menu_content">
+            <li class="nav-settings"><a [routerLink]="['/dashboard/users']">Usuários</a></li>
+            <li class="nav-maps"><a href="#" class="label-menu-dark" onClick="loadPage(2)">Mapa</a></li>
+            <li class="nav-reports"><a href="#" class="label-menu-dark">Relatórios</a></li>
+        </ul>
+    </div>
+</nav>

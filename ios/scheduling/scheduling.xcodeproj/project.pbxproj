@@ -17,6 +17,7 @@
 		F42C7D3E1EA701AE00CC6066 /* ic_search.imageset in Resources */ = {isa = PBXBuildFile; fileRef = F42C7D3D1EA701AE00CC6066 /* ic_search.imageset */; };
 		F42C7D401EA7025300CC6066 /* ic_account_circle.imageset in Resources */ = {isa = PBXBuildFile; fileRef = F42C7D3F1EA7025300CC6066 /* ic_account_circle.imageset */; };
 		F42C7D421EA7031900CC6066 /* ic_event.imageset in Resources */ = {isa = PBXBuildFile; fileRef = F42C7D411EA7031900CC6066 /* ic_event.imageset */; };
+		F42C7D441EA70E2F00CC6066 /* CLNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C7D431EA70E2F00CC6066 /* CLNavBar.swift */; };
 		F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DD1E95A3F900C23CBF /* AppDelegate.swift */; };
 		F44943E01E95A3F900C23CBF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44943DF1E95A3F900C23CBF /* LoginController.swift */; };
 		F44943E31E95A3F900C23CBF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44943E11E95A3F900C23CBF /* Login.storyboard */; };
@@ -41,6 +42,7 @@
 		F42C7D3D1EA701AE00CC6066 /* ic_search.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_search.imageset; sourceTree = "<group>"; };
 		F42C7D3F1EA7025300CC6066 /* ic_account_circle.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_account_circle.imageset; sourceTree = "<group>"; };
 		F42C7D411EA7031900CC6066 /* ic_event.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_event.imageset; sourceTree = "<group>"; };
+		F42C7D431EA70E2F00CC6066 /* CLNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLNavBar.swift; sourceTree = "<group>"; };
 		F44943DA1E95A3F900C23CBF /* scheduling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44943DD1E95A3F900C23CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44943DF1E95A3F900C23CBF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F42607AF1E9B26DE002F77B3 /* Design.swift */,
+				F42C7D431EA70E2F00CC6066 /* CLNavBar.swift */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				F42C7D3A1EA6FC6600CC6066 /* SettingsController.swift in Sources */,
 				F44943E01E95A3F900C23CBF /* LoginController.swift in Sources */,
+				F42C7D441EA70E2F00CC6066 /* CLNavBar.swift in Sources */,
 				F42607B01E9B26DE002F77B3 /* Design.swift in Sources */,
 				F42C7D3C1EA6FC8900CC6066 /* SearchController.swift in Sources */,
 				F44943DE1E95A3F900C23CBF /* AppDelegate.swift in Sources */,

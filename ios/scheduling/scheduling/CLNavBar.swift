@@ -6,4 +6,11 @@
 //  Copyright © 2017 Cordova labs. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+class CLNavBar: UIView {
+    
+    
+    
+}
