@@ -20,7 +20,7 @@
 
     <div class="cl-drawer-menu-content">
         <ul id="menu_content">
-            <li class="nav-settings"><a [routerLink]="['/dashboard/users']">Usuários</a></li>
+            <li class="nav-settings" (click)="toogleMenu()"><a [routerLink]="['/dashboard/users']">Usuários</a></li>
             <li class="nav-maps"><a href="#" class="label-menu-dark" onClick="loadPage(2)">Mapa</a></li>
             <li class="nav-reports"><a href="#" class="label-menu-dark">Relatórios</a></li>
         </ul>

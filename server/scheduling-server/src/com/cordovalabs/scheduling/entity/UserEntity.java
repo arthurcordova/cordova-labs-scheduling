@@ -14,12 +14,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @Table(schema="public", name="tbuser")
 @NamedQuery(name="all", query="select u from UserEntity u order by u.login")
-public class UserEntity implements Serializable {
+public class UserEntity extends BaseEntity implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
-	@Id
-	private String id;
 	
 	@Column(name="login")
 	private String login;
@@ -37,17 +34,6 @@ public class UserEntity implements Serializable {
 	public UserEntity() {
 		super();
 	}
-
-
-	public String getId() {
-		return id;
-	}
-
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
 
 	public String getLogin() {
 		return login;
