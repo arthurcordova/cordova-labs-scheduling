@@ -1,7 +1,6 @@
 package com.cordovalabs.scheduling.entity;
 
 import java.util.List;
-import java.util.UUID;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
@@ -40,7 +39,6 @@ public class UserRepository {
 	 * @return {@link UserEntity}
 	 */
 	public UserEntity save(UserEntity newUser) {
-		newUser.setId(UUID.randomUUID().toString());
 		em.persist(newUser);
 		return newUser;
 	}

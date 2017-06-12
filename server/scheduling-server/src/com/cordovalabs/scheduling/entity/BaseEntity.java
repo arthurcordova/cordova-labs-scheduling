@@ -2,11 +2,10 @@ package com.cordovalabs.scheduling.entity;
 
 import java.util.UUID;
 
-import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.persistence.MappedSuperclass;
 
-@XmlRootElement
+@MappedSuperclass
 public abstract class BaseEntity {
 	
 	@Id
@@ -20,8 +19,8 @@ public abstract class BaseEntity {
 		return id;
 	}
 
-	protected void setId(String id) {
-		if (this.id != null){
+	public void setId(String id) {
+		if (id != null){
 			this.id = id;
 		}
 	}
