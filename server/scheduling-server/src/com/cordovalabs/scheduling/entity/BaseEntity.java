@@ -12,7 +12,7 @@ public abstract class BaseEntity {
 	protected String id;
 	
 	public BaseEntity() {
-		this.id = UUID.randomUUID().toString().replace("-", "");
+		this.id = UUID.randomUUID().toString();
 	}
 
 	public String getId() {
