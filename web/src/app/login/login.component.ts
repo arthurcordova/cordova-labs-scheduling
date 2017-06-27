@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 
 
 // Do not import from 'firebase' as you'll lose the tree shaking benefits
-import * as firebase from 'firebase/app';
+
 
 @Component({
   selector: 'app-login',
@@ -14,8 +14,6 @@ import * as firebase from 'firebase/app';
 
 export class LoginComponent implements OnInit {
 
-  private authState: Observable<firebase.User>;
-  private currentUser: firebase.User;
   private router;
 
   constructor(router :Router) {
@@ -27,7 +25,7 @@ export class LoginComponent implements OnInit {
   }
 
   validateAuth() {
-    this.router.navigateByUrl('/dashboard');
+    this.router.navigate(['/index']);
   }
 
 }

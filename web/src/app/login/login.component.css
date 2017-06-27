@@ -17,12 +17,15 @@
     background: bottom right 15% no-repeat #5C718C;
 }
 
-.portfolio-logo-small {
-    background: url(../../../assets/images/logo-small.png) 50% no-repeat;
+.logo-small {
+    background: url(../../assets/images/logo-small.png) 50% no-repeat;
     background-size: cover;
     height: 75px;
     width: 75px;
-    margin: auto auto 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .is-compact .portfolio-logo {
@@ -31,12 +34,30 @@
     margin-top: 7px;
 }
 
-.cl-title-light {
-    font-size: 32px;
+.title-cordova-labs {
+    font-size: 28px;
     text-align: center;
     color: #5C718C;
+    font-family: Roboto;
+    text-align: center;
+    width: 100%;
+    font-weight: 200 !important;
     margin-bottom: 16px;
-    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle-cordova-labs {
+    font-size: 14px;
+    text-align: center;
+    color: #5C718C;
+    text-transform: uppercase;
+    font-family: Roboto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .margin-top-16 {

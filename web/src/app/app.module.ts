@@ -3,21 +3,21 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
-import { AngularFireModule } from 'angularfire2';
 
 import { AppComponent } from './app.component';
-import { LoginComponent } from './components/login/login.component';
+import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { MenuComponent } from './menu/menu/menu.component';
 import { UserComponent } from './user/user/user.component';
 
 import { UserService } from './user/user/service/user.service';
+import { IndexComponent } from './index/index.component';
 
 const appRoutes: Routes = [
   {
-    path: 'dashboard',
-    component: DashboardComponent,
+    path: 'index',
+    component: IndexComponent,
     children: [
+      { path: 'dashboard', component: IndexComponent },
       { path: 'users', component: UserComponent }
     ]
   },
@@ -31,8 +31,8 @@ const appRoutes: Routes = [
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    MenuComponent,
-    UserComponent
+    UserComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

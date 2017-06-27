@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { UserService } from './service/user.service';
 import { User } from './service/user';
 import { Observable } from 'rxjs/Rx';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-user',
@@ -12,18 +13,26 @@ export class UserComponent implements OnInit {
 
   users: User[];
 
-  constructor(private userService: UserService) { }
+  constructor(private userService: UserService, private router: Router) {
+    
+   }
 
   ngOnInit() {
     
+
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
+
+
     this.loadUsers();
+    
 
     console.log("Depois");
     console.log(this.users);
   }
+
+  
 
 
   loadUsers() {
@@ -32,7 +41,7 @@ export class UserComponent implements OnInit {
       data => { this.users = data },
       error => { alert(error) }
       );
-    
+
   }
 
 
